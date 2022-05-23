@@ -15,13 +15,13 @@ public class PurchaseDao {
     JdbcTemplate jdbcTemplate;
 
     final String SELECT_ALL_PURCHASES_QUERY = "SELECT * FROM PURCHASES";
-    final String SELECT_PURCHASE_BY_DATE_QUERY = "select products.PRODUCT_NAME from purchases, products, BAGS, users\n" +
+    final String SELECT_PURCHASE_BY_DATE_QUERY = "select * from purchases, products, BAGS, users\n" +
             "where purchases.USER_ID = users.USER_ID and\n" +
             "      purchases.BAG_ID = bags.BAG_ID and\n" +
             "      bags.PRODUCT_ID = products.PRODUCT_ID and\n" +
             "      PURCHASES.PURCHASE_DATE > ?";
 
-    final String SELECT_PURCHASE_BY_CATEGORY_QUERY = "SELECT PURCHASES.PURCHASE_DATE, USERS.USER_NAME, PRODUCTS" +
+    final String SELECT_PURCHASE_BY_CATEGORY_QUERY = "SELECT PURCHASES.PURCHASE_DATE, USERS.USERNAME, PRODUCTS" +
             ".PRODUCT_NAME, PRODUCTS.PRODUCT_CATEGORY from purchases, products, BAGS, users\n" +
             "where purchases.USER_ID = users.USER_ID and\n" +
             "      purchases.BAG_ID = bags.BAG_ID and\n" +

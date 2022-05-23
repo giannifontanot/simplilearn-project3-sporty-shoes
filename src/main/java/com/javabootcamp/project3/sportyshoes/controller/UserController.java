@@ -4,9 +4,7 @@ import com.javabootcamp.project3.sportyshoes.entity.Product;
 import com.javabootcamp.project3.sportyshoes.entity.User;
 import com.javabootcamp.project3.sportyshoes.jdbc.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -41,7 +39,7 @@ public class UserController {
         return userDao.getUserByName(userName);
     }
 
-    @GetMapping("/login")
+    @PostMapping("/login")
     public String login(@RequestParam String username, String password) {
         try {
             if (userDao.login(username, password) instanceof User) {
@@ -52,7 +50,7 @@ public class UserController {
         }
         return "no user";
     }
-    @GetMapping("/updatePassword")
+    @PostMapping("/updatePassword")
     public void updatePassword(@RequestParam String username, String oldPassword, String newPassword){
         userDao.updatePassword(username, oldPassword, newPassword);
     }
