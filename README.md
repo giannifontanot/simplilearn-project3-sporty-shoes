@@ -2,7 +2,7 @@
 ![Status Stable](https://img.shields.io/badge/Status-Stable-blue)
 [![MIT License](https://img.shields.io/badge/License-MIT%20License-brightgreen)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 # Sporty Shoes - Backend Application
-This is a SpringBoot backend application, and its purpose is to manage the inventory of a store, along with the client's information, and their purchases.
+Sporty Shoes is a SpringBoot backend application, and its purpose is to manage the inventory of a store, along with the client's information, and their purchases.
 ## Table of Contents
 - Sporty Shoes
 	* [Installation](#installation)
@@ -14,7 +14,7 @@ This is a SpringBoot backend application, and its purpose is to manage the inven
 	+ [Support](#support)
 	+ [Authors](#authors)
 ## Installation
-Since the application is written using SpringBoot, a JVM is a must. Please install Java version 11 as a minimum. Also MySQL is used to store all data.
+Since the application is written using SpringBoot, a JVM is a must. Please install Java version 11 as a minimum. Also MySQL is used to store all data. And since the application does not have a UI, you will also need Postman or Insomnia to perform the API calls.
 ````````````````````````
 - Java 11
 - MySQL Server
@@ -24,7 +24,8 @@ Since the application is written using SpringBoot, a JVM is a must. Please insta
 ````````````````````````
 Since this is a backend application and the UI is not a requirement for this project, we will use Postman to demonstrate how it works. Just run the application from your IDE and use the file named "Project3-SportyShoes.postman_collection.json" to load the API calls you will use in Postman.
 ````````````````````````
-<p align="center"><img src="./images/terminal.JPG" width=50% /></p>
+<p align="center"><img src="./images/front-image.JPG" /></p>
+<p align="center"><img src="./images/SpringBootApp.JPG" /></p>
 ## Current Features
 ````````````````````````
 The application uses this API calls to manage the store:
@@ -44,7 +45,7 @@ The application uses this API calls to manage the store:
 	+ getPurchaseByCategory
 
 ````````````````````````
-<p align="center"><img src="./images/postman.JPG" width=50% /></p>
+<p align="center"><img src="./images/postman-detail.JPG" /></p>
 
 ## Future Features
 ````````````````````````
