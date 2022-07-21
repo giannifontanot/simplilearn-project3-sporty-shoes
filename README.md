@@ -20,12 +20,14 @@ Since the application is written using SpringBoot, a JVM is a must. Please insta
 - MySQL Server
 - Postman
 ````````````````````````
+
 ## Usage
 ````````````````````````
 Since this is a backend application and the UI is not a requirement for this project, we will use Postman to demonstrate how it works. Just run the application from your IDE and use the file named "Project3-SportyShoes.postman_collection.json" to load the API calls you will use in Postman.
 ````````````````````````
 
-<p align="center"><img src="./images/front-image.JPG" /></p>
+
+<p align="center"><img src="./images/front-image.jpg" /></p>
 <p align="center"><img src="./images/SpringBootApp.JPG" /></p>
 
 ## Current Features
@@ -50,7 +52,7 @@ The application uses this API calls to manage the store:
 
 <p align="center"><img src="./images/postman-detail.JPG" /></p>
 
-## Future Features
+## Future Features 🚀
 ````````````````````````
 - Develop a User Interface using Angular
 - Instead of MySQL, switch to MongoDB 
