@@ -24,8 +24,10 @@ Since the application is written using SpringBoot, a JVM is a must. Please insta
 ````````````````````````
 Since this is a backend application and the UI is not a requirement for this project, we will use Postman to demonstrate how it works. Just run the application from your IDE and use the file named "Project3-SportyShoes.postman_collection.json" to load the API calls you will use in Postman.
 ````````````````````````
+
 <p align="center"><img src="./images/front-image.JPG" /></p>
 <p align="center"><img src="./images/SpringBootApp.JPG" /></p>
+
 ## Current Features
 ````````````````````````
 The application uses this API calls to manage the store:
@@ -45,6 +47,7 @@ The application uses this API calls to manage the store:
 	+ getPurchaseByCategory
 
 ````````````````````````
+
 <p align="center"><img src="./images/postman-detail.JPG" /></p>
 
 ## Future Features
@@ -57,11 +60,14 @@ The application uses this API calls to manage the store:
 ## Contributions
 If you would like to contribute to this project, you are very welcome! Fork the code and then submit a pull request with your changes.
 In case you need them, here are some guidelines: [Contributor Covenant](https://www.contributor-covenant.org/)
+
 # 🔗 Links
 ### GitHub Repository
 [https://github.com/giannifontanot/ud-project1-hotelreservation/](https://github.com/giannifontanot/simplilearn-project3-sporty-shoes/)
+
 ### Support
 If you need help with this project, please write to: [gianni.fontanot@gmail.com](https://mailto:gianni.fontanot@gmail.com)
+
 ### Authors
  - [@giannifontanot](https://www.github.com/giannifontanot)
  - [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://giannifontanot.github.io/portfolio/)
